@@ -1,0 +1,14 @@
+* ffdd
+
+This is a `dd` like utility, intended for writing images directly to block devices, especially flash based devices such as SD cards.
+
+Unlike `dd`, this utility only writes the blocks that differ, rather than writing the entire file, which can improve performance and reduce wear on flash based media.
+
+* usage
+
+#+BEGIN_SRC bash
+  sudo ffdd --block-size=4192304 --in-file=$HOME/downloads/iso --out-file=/dev/sdX
+#+END_SRC
+
+* installing
+todo: write an ebuild
