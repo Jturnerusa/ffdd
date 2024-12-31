@@ -1,8 +1,8 @@
 * ffdd
 
-This is a `dd` like utility, intended for writing images directly to block devices, especially flash based devices such as SD cards.
+This is a ~dd~ like utility, intended for writing images directly to block devices, especially flash based devices such as SD cards.
 
-Unlike `dd`, this utility only writes the blocks that differ, rather than writing the entire file, which can improve performance and reduce wear on flash based media.
+Unlike ~dd~, this utility only writes the blocks that differ, rather than writing the entire file, which can improve performance and reduce wear on flash based media.
 
 * usage
 
